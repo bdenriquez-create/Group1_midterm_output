@@ -26,3 +26,13 @@ course_id (FOREIGN KEY → courses.course_id)
 semester
 school_year
 status
+
+Method	Endpoint	Description
+GET	   /enrollments	     Get all enrollments (with JOIN data)
+GET	/enrollments/{id}	Get single enrollment
+POST	/enrollments	Create enrollment
+PUT	/enrollments/{id}	Update enrollment
+DELETE	/enrollments/{id}	Delete enrollment
+
+
+
