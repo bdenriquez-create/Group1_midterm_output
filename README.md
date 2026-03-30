@@ -103,7 +103,7 @@ perSemester()
 Used PostgreSQL aggregation (COUNT, GROUP BY)
 
 
-Member 6 – Documentation & Testing (Centeno, Angelika Mae)
+Member 6 – Documentation & Testing (Centeno, Angelika)
 Wrote README.md
 Tested endpoints using Postman
 Verified API responses
