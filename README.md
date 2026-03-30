@@ -40,9 +40,11 @@ Students
 | PUT    | `/students/{id}` | Update student     |
 | DELETE | `/students/{id}` | Delete student     |
 
-GET http://localhost/student_enrollment/api/students 
+# GET 
+http://localhost/student_enrollment/api/students 
 
-POST http://localhost/student_enrollment/api/students
+#POST 
+http://localhost/student_enrollment/api/students
 {
   "first_name": "Test",
   "last_name": "User",
@@ -52,7 +54,8 @@ POST http://localhost/student_enrollment/api/students
   "date_of_birth": "2000-01-01"
 }
 
-PUT http://localhost/student_enrollment/api/students/1
+# PUT 
+http://localhost/student_enrollment/api/students/1
 {
   "first_name": "Test",
   "last_name": "Updated",
@@ -62,8 +65,10 @@ PUT http://localhost/student_enrollment/api/students/1
   "date_of_birth": "2000-01-01"
 }
 
+# DELETE 
+http://localhost/student_enrollment/api/students/1
 
-Analytics
+# Analytics
 GET http://localhost/student_enrollment/api/students/analytics/total
 
 # Courses 
