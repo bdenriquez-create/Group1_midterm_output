@@ -40,35 +40,7 @@ Students
 | PUT    | `/students/{id}` | Update student     |
 | DELETE | `/students/{id}` | Delete student     |
 
-# GET 
-http://localhost/student_enrollment/api/students 
-
-#POST 
-http://localhost/student_enrollment/api/students
-{
-  "first_name": "Test",
-  "last_name": "User",
-  "email": "test.user@email.com",
-  "phone": "09171112222",
-  "address": "Manila, PH",
-  "date_of_birth": "2000-01-01"
-}
-
-# PUT 
-http://localhost/student_enrollment/api/students/1
-{
-  "first_name": "Test",
-  "last_name": "Updated",
-  "email": "test.updated@email.com",
-  "phone": "09171112222",
-  "address": "Cebu, PH",
-  "date_of_birth": "2000-01-01"
-}
-
-# DELETE 
-http://localhost/student_enrollment/api/students/1
-
-# Analytics
+Analytics
 GET http://localhost/student_enrollment/api/students/analytics/total
 
 # Courses 
@@ -94,6 +66,47 @@ GET http://localhost/student_enrollment/api/courses/analytics/students-per-cours
 
 Analytics
 GET http://localhost/student_enrollment/api/enrollments/analytics/per-semester
+
+# Member Roles & Responsibilities
+Member 1 – Database Designer (Enriquez, Bryan D.)
+Designed PostgreSQL database schema
+Created tables with primary and foreign keys
+Prepared .sql file
+
+
+Member 2 – Model Developer (PHP OOP) (Pakingan, Mark Aljay)
+Developed models:
+Student.php
+Course.php
+Enrollment.php
+Implemented database queries using PDO (PostgreSQL)
+
+
+Member 3 – CRUD API Developer (Cruz, Ramon Jr. & Pitargue, Aizelle Mynina)
+Implemented CRUD endpoints in controllers
+Connected models to API routes
+Tested create, read, update, delete operations
+
+
+Member 4 – Relationship API Developer (Bagagnan, Jose Manuel)
+Implemented:
+byStudent()
+byCourse()
+Created JOIN queries for relational data
+
+
+Member 5 – Data Analytics Developer (Tapia, Emmanuel Keith)
+Implemented:
+totalCount()
+studentsPerCourse()
+perSemester()
+Used PostgreSQL aggregation (COUNT, GROUP BY)
+
+
+Member 6 – Documentation & Testing (Centeno, Angelika Mae)
+Wrote README.md
+Tested endpoints using Postman
+Verified API responses
 
 
 
